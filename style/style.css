@@ -28,8 +28,10 @@ input[type="text"]{
 button{
     /* color:white; */
     background-color: rgb(6, 236, 159);
-    padding:5px 10px;
+    padding:10px 20px;
     margin-left:120px;
+    border-radius: 10px;
+    border: none;
 }
 
 input[type="checkbox"]{
