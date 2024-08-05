@@ -3,6 +3,8 @@
     margin:150px auto;
     background-color: rgb(171, 255, 227);
     padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px 5px rgb(26, 110, 82);
 }
 
 button{
@@ -20,15 +22,21 @@ h1{
 
 input[type="text"]{
     width:95%;
+    padding:5px;
 }
 
 button{
-    color:white;
-    background-color: rgb(17, 88, 64);
+    /* color:white; */
+    background-color: rgb(6, 236, 159);
     padding:5px 10px;
     margin-left:120px;
 }
 
 input[type="checkbox"]{
     margin-right: 10px;
+}
+
+button:hover{
+    color:white;
+    background-color: rgb(17, 88, 64);
 }
